@@ -2,6 +2,7 @@
 
 -- main code
 gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
 gg.searchNumber("37905186", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
 gg.processResume()
 gg.refineAddress("C", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1, 0)
